@@ -1,0 +1,21 @@
+{
+  "name": "zuby-test",
+  "description": "My awesome project built with Zuby.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx zuby dev",
+    "build": "npx zuby build",
+    "preview": "npx zuby preview",
+    "upgrade": "npx zuby upgrade"
+  },
+  "dependencies": {
+    "zuby": "^1.0.60",
+    "@zubyjs/react": "^1.0.60"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  }
+}
